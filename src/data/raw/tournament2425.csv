@@ -1,0 +1,216 @@
+Date,Team,Opponent,HomeAway,Tournament,GoalsFor,GoalsAgainst,Stage,Leg,Status,TournamentWeight
+2024-09-19,Arsenal,Atalanta,A,CL,0.0,0.0,GroupStage,,Active,3
+2024-09-25,Arsenal,Bolton,H,EFL,5.0,1.0,ThirdRound,,Active,1
+2024-10-10,Arsenal,PSG,H,CL,2.0,0.0,GroupStage,,Active,3
+2024-10-22,Arsenal,Shakhtar,H,CL,1.0,0.0,GroupStage,,Active,3
+2024-10-30,Arsenal,Preston,A,EFL,3.0,0.0,FourthRound,,Active,1
+2024-11-06,Arsenal,Inter,A,CL,0.0,1.0,GroupStage,,Active,3
+2024-11-12,Arsenal,Monaco,H,CL,3.0,0.0,GroupStage,,Active,3
+2024-11-26,Arsenal,Sporting,A,CL,5.0,1.0,GroupStage,,Active,3
+2024-12-18,Arsenal,Crystal Palace,H,EFL,3.0,2.0,QuarterFinal,,Active,1
+2025-01-01,Arsenal,Man United,H,FA,1.0,1.0,ThirdRound,,Eliminated,1
+2025-01-07,Arsenal,Newcastle,H,EFL,0.0,2.0,SemiFinal,Leg1,Active,1
+2025-01-22,Arsenal,Dinamo Zagreb,H,CL,3.0,0.0,GroupStage,,Active,3
+2025-01-29,Arsenal,Girona,H,CL,2.0,1.0,GroupStage,,Active,3
+2025-02-05,Arsenal,Newcastle,A,EFL,0.0,2.0,SemiFinal,Leg2,Eliminated,1
+2025-03-04,Arsenal,PSV,A,CL,7.0,1.0,RoundOf16,Leg1,Active,3
+2025-03-12,Arsenal,PSV,H,CL,2.0,2.0,RoundOf16,Leg2,Active,3
+2025-04-08,Arsenal,Real Madrid,H,CL,3.0,0.0,QuarterFinal,Leg1,Active,3
+2025-04-16,Arsenal,Real Madrid,A,CL,2.0,1.0,QuarterFinal,Leg2,Active,3
+2025-04-29,Arsenal,PSG,H,CL,0.0,1.0,SemiFinal,Leg1,Active,3
+2025-05-07,Arsenal,PSG,A,CL,1.0,2.0,SemiFinal,Leg2,Eliminated,3
+2024-09-17,Aston Villa,Young Boys,A,CL,3.0,0.0,GroupStage,,Active,3
+2024-09-24,Aston Villa,Wycombe,A,EFL,2.0,1.0,ThirdRound,,Active,1
+2024-10-02,Aston Villa,Bayern Munich,H,CL,1.0,0.0,GroupStage,,Active,3
+2024-10-22,Aston Villa,Bologna,H,CL,2.0,0.0,GroupStage,,Active,3
+2024-10-30,Aston Villa,Crystal Palace,H,EFL,1.0,2.0,FourthRound,,Eliminated,1
+2024-11-06,Aston Villa,Club Brugge,A,CL,0.0,1.0,GroupStage,,Active,3
+2024-11-27,Aston Villa,Juventus,H,CL,0.0,0.0,GroupStage,,Active,3
+2024-12-10,Aston Villa,Leipzig,A,CL,3.0,2.0,GroupStage,,Active,3
+2025-01-10,Aston Villa,West Ham,H,FA,2.0,1.0,ThirdRound,,Active,1
+2025-01-21,Aston Villa,Monaco,A,CL,0.0,1.0,GroupStage,,Active,3
+2025-01-29,Aston Villa,Celtic,H,CL,4.0,2.0,GroupStage,,Active,3
+2025-02-09,Aston Villa,Tottenham,H,FA,2.0,1.0,FourthRound,,Active,1
+2025-02-28,Aston Villa,Cardiff,H,FA,2.0,0.0,FifthRound,,Active,1
+2025-03-04,Aston Villa,Club Brugge,A,CL,3.0,1.0,RoundOf16,Leg1,Active,3
+2025-03-12,Aston Villa,Club Brugge,H,CL,3.0,0.0,RoundOf16,Leg2,Active,3
+2025-03-30,Aston Villa,Preston,A,FA,3.0,0.0,QuarterFinal,,Active,1
+2025-04-09,Aston Villa,PSG,A,CL,1.0,3.0,QuarterFinal,Leg1,Active,3
+2025-04-15,Aston Villa,PSG,H,CL,3.0,2.0,QuarterFinal,Leg2,Eliminated,3
+2025-04-26,Aston Villa,Crystal Palace,A,FA,0.0,3.0,SemiFinal,,Eliminated,1
+2024-08-28,Bournemouth,West Ham,A,EFL,0.0,1.0,SecondRound,,Eliminated,1
+2025-01-11,Bournemouth,West Brom,H,FA,5.0,1.0,ThirdRound,,Active,1
+2025-02-08,Bournemouth,Everton,A,FA,2.0,0.0,FourthRound,,Active,1
+2025-03-01,Bournemouth,Wolves,H,FA,6.0,5.0,FifthRound,,Active,1
+2025-03-30,Bournemouth,Man City,H,FA,1.0,2.0,QuarterFinal,,Eliminated,1
+2024-08-28,Brentford,Colchester Utd,A,EFL,1.0,0.0,SecondRound,,Active,1
+2024-09-17,Brentford,Leyton Orient,H,EFL,3.0,1.0,ThirdRound,,Active,1
+2024-10-29,Brentford,Sheff Wed,H,EFL,6.0,5.0,FourthRound,,Active,1
+2024-12-18,Brentford,Newcastle,A,EFL,1.0,3.0,QuarterFinal,,Eliminated,1
+2025-01-11,Brentford,Plymouth,H,FA,0.0,1.0,ThirdRound,,Eliminated,1
+2024-08-27,Brighton,Crawley Town,H,EFL,4.0,0.0,SecondRound,,Active,1
+2024-09-18,Brighton,Wolves,H,EFL,3.0,2.0,ThirdRound,,Active,1
+2024-10-30,Brighton,Liverpool,H,EFL,2.0,3.0,FourthRound,,Eliminated,1
+2025-01-11,Brighton,Norwich,A,FA,4.0,0.0,ThirdRound,,Active,1
+2025-02-08,Brighton,Chelsea,H,FA,2.0,1.0,FourthRound,,Active,1
+2025-03-02,Brighton,Newcastle,A,FA,,,,Active,,1
+2025-03-29,Brighton,Nott'm Forest,H,FA,3.0,4.0,QuarterFinal,,Eliminated,1
+2024-08-22,Chelsea,Servette FC,H,ECL,2.0,0.0,QualifyingRound,Leg1,Active,2
+2024-08-29,Chelsea,Servette FC,A,ECL,1.0,2.0,QualifyingRound,Leg2,Active,2
+2024-09-24,Chelsea,Barrow,H,EFL,5.0,0.0,ThirdRound,,Active,1
+2024-10-03,Chelsea,KAA Gent,H,ECL,4.0,2.0,GroupStage,,Active,2
+2024-10-24,Chelsea,Panathinaikos,A,ECL,4.0,1.0,GroupStage,,Active,2
+2024-10-30,Chelsea,Newcastle,A,EFL,0.0,2.0,FourthRound,,Eliminated,1
+2024-11-07,Chelsea,FC Noah,H,ECL,8.0,0.0,GroupStage,,Active,2
+2024-11-28,Chelsea,Heidenheim,A,ECL,2.0,0.0,GroupStage,,Active,2
+2024-12-12,Chelsea,FC Astana,A,ECL,3.0,1.0,GroupStage,,Active,2
+2024-12-19,Chelsea,Shamrock Rovers,H,ECL,5.0,1.0,GroupStage,,Active,2
+2025-01-11,Chelsea,Morecambe,H,FA,5.0,0.0,ThirdRound,,Active,1
+2025-02-08,Chelsea,Brighton,A,FA,1.0,2.0,FourthRound,,Eliminated,1
+2025-03-06,Chelsea,Copenhagen,A,ECL,2.0,1.0,RoundOf16,Leg1,Active,2
+2025-03-13,Chelsea,Copenhagen,H,ECL,1.0,0.0,RoundOf16,Leg2,Active,2
+2025-04-10,Chelsea,Legia Warszawa,A,ECL,3.0,0.0,QuarterFinal,Leg1,Active,2
+2025-04-17,Chelsea,Legia Warszawa,H,ECL,1.0,2.0,QuarterFinal,Leg2,Active,2
+2025-05-01,Chelsea,Djurgardens,A,ECL,4.0,1.0,SemiFinal,Leg1,Active,2
+2025-05-08,Chelsea,Djurgardens,H,ECL,1.0,0.0,SemiFinal,Leg2,Active,2
+2025-05-28,Chelsea,Real Betis,A,ECL,4.0,1.0,Final,,Active,2
+2024-08-27,Crystal Palace,Norwich,H,EFL,4.0,0.0,SecondRound,,Active,1
+2024-09-17,Crystal Palace,QPR,A,EFL,2.0,1.0,ThirdRound,,Active,1
+2024-10-30,Crystal Palace,Aston Villa,A,EFL,2.0,1.0,FourthRound,,Active,1
+2024-12-18,Crystal Palace,Arsenal,A,EFL,2.0,3.0,QuarterFinal,,Eliminated,1
+2025-01-12,Crystal Palace,Stockport,H,FA,1.0,0.0,ThirdRound,,Active,1
+2025-02-10,Crystal Palace,Doncaster,A,FA,2.0,0.0,FourthRound,,Active,1
+2025-03-01,Crystal Palace,Millwall,H,FA,3.0,1.0,FifthRound,,Active,1
+2025-03-29,Crystal Palace,Fulham,A,FA,3.0,0.0,QuarterFinal,,Active,1
+2025-04-26,Crystal Palace,Aston Villa,H,FA,3.0,0.0,SemiFinal,,Active,1
+2025-05-17,Crystal Palace,Man City,H,FA,1.0,0.0,Final,,Active,1
+2024-08-27,Everton,Doncaster,H,EFL,3.0,0.0,SecondRound,,Active,1
+2024-09-17,Everton,Southampton,H,EFL,6.0,7.0,ThirdRound,,Eliminated,1
+2025-01-09,Everton,Peterborough,H,FA,2.0,0.0,ThirdRound,,Active,1
+2025-02-08,Everton,Bournemouth,H,FA,0.0,2.0,FourthRound,,Eliminated,1
+2024-08-27,Fulham,Birmingham,A,EFL,2.0,0.0,SecondRound,,Active,1
+2024-09-17,Fulham,Preston,A,EFL,16.0,17.0,ThirdRound,,Eliminated,1
+2025-01-09,Fulham,Watford,H,FA,4.0,1.0,ThirdRound,,Active,1
+2025-02-08,Fulham,Wigan,A,FA,2.0,1.0,FourthRound,,Active,1
+2025-03-02,Fulham,Man United,A,FA,5.0,4.0,FifthRound,,Active,1
+2025-03-29,Fulham,Crystal Palace,H,FA,0.0,3.0,QuarterFinal,,Eliminated,1
+2024-08-28,Ipswich,AFC Wimbledon,A,EFL,4.0,6.0,SecondRound,,Eliminated,1
+2025-01-12,Ipswich,Bristol Rovers,H,FA,3.0,0.0,ThirdRound,,Active,1
+2025-02-08,Ipswich,Coventry,A,FA,4.0,1.0,FourthRound,,Active,1
+2025-03-03,Ipswich,Nott'm Forest,A,FA,5.0,6.0,FifthRound,,Eliminated,1
+2024-08-27,Leicester,Tranmere,H,EFL,4.0,0.0,SecondRound,,Active,1
+2024-09-24,Leicester,Walsall,A,EFL,3.0,0.0,ThirdRound,,Active,1
+2024-10-30,Leicester,Man United,A,EFL,2.0,5.0,FourthRound,,Eliminated,1
+2025-01-11,Leicester,QPR,H,FA,6.0,2.0,ThirdRound,,Active,1
+2025-02-07,Leicester,Man United,A,FA,1.0,2.0,FourthRound,,Eliminated,1
+2024-09-17,Liverpool,AC Milan,A,CL,3.0,1.0,GroupStage,,Active,3
+2024-09-25,Liverpool,West Ham,H,EFL,5.0,1.0,ThirdRound,,Active,1
+2024-10-02,Liverpool,Bologna,H,CL,2.0,0.0,GroupStage,,Active,3
+2024-10-23,Liverpool,Leipzig,A,CL,1.0,0.0,GroupStage,,Active,3
+2024-10-30,Liverpool,Brighton,A,EFL,3.0,2.0,FourthRound,,Active,1
+2024-11-05,Liverpool,Leverkusen,H,CL,4.0,0.0,GroupStage,,Active,3
+2024-11-27,Liverpool,Real Madrid,H,CL,2.0,0.0,GroupStage,,Active,3
+2024-12-10,Liverpool,Girona,A,CL,1.0,0.0,GroupStage,,Active,3
+2024-12-18,Liverpool,Southampton,A,EFL,2.0,1.0,QuarterFinal,,Active,1
+2025-01-08,Liverpool,Tottenham,A,EFL,0.0,1.0,SemiFinal,Leg1,Active,1
+2025-01-11,Liverpool,Accrington,H,FA,4.0,0.0,ThirdRound,,Active,1
+2025-01-21,Liverpool,Lille,H,CL,2.0,1.0,GroupStage,,Active,3
+2025-01-29,Liverpool,PSV,A,CL,2.0,3.0,GroupStage,,Active,3
+2025-02-06,Liverpool,Tottenham,H,EFL,4.0,0.0,SemiFinal,Leg2,Active,1
+2025-02-09,Liverpool,Plymouth,A,FA,0.0,1.0,FourthRound,,Eliminated,1
+2025-03-05,Liverpool,PSG,A,CL,1.0,0.0,RoundOf16,Leg1,Active,3
+2025-03-11,Liverpool,PSG,H,CL,1.0,5.0,RoundOf16,Leg2,Eliminated,3
+2025-03-16,Liverpool,Newcastle,H,EFL,1.0,2.0,Final,,Eliminated,1
+2024-08-10,Man City,Man United,A,CS,8.0,7.0,Final,,Active,1
+2024-09-18,Man City,Inter,H,CL,0.0,0.0,GroupStage,,Active,3
+2024-09-24,Man City,Watford,H,EFL,2.0,1.0,ThirdRound,,Active,1
+2024-10-01,Man City,Slo. Bratislava,A,CL,4.0,0.0,GroupStage,,Active,3
+2024-10-23,Man City,Sparta Prague,H,CL,5.0,0.0,GroupStage,,Active,3
+2024-10-30,Man City,Tottenham,A,EFL,1.0,2.0,FourthRound,,Eliminated,1
+2024-11-05,Man City,Sporting,A,CL,1.0,4.0,GroupStage,,Active,3
+2024-11-26,Man City,Feyenoord,H,CL,3.0,3.0,GroupStage,,Active,3
+2024-12-11,Man City,Juventus,A,CL,0.0,2.0,GroupStage,,Active,3
+2025-01-11,Man City,Salford,H,FA,8.0,0.0,ThirdRound,,Active,1
+2025-01-22,Man City,PSG,A,CL,2.0,4.0,GroupStage,,Active,3
+2025-01-29,Man City,Club Brugge,H,CL,3.0,1.0,GroupStage,,Active,3
+2025-02-08,Man City,Leyton Orient,A,FA,2.0,1.0,FourthRound,,Active,1
+2025-02-11,Man City,Real Madrid,H,CL,2.0,3.0,RoundOf16,Leg1,Active,3
+2025-02-19,Man City,Real Madrid,A,CL,1.0,3.0,RoundOf16,Leg2,Eliminated,3
+2025-03-01,Man City,Plymouth,H,FA,3.0,1.0,FifthRound,,Active,1
+2025-03-30,Man City,Bournemouth,A,FA,2.0,1.0,QuarterFinal,,Active,1
+2025-04-27,Man City,Nott'm Forest,A,FA,2.0,0.0,SemiFinal,,Active,1
+2025-05-17,Man City,Crystal Palace,A,FA,0.0,1.0,Final,,Eliminated,1
+2024-08-10,Man United,Man City,H,CS,7.0,8.0,Final,,Eliminated,1
+2024-09-17,Man United,Barnsley,H,EFL,7.0,0.0,ThirdRound,,Active,1
+2024-09-25,Man United,Twente FC,H,EL,1.0,1.0,GroupStage,,Active,2
+2024-10-03,Man United,Porto,A,EL,3.0,3.0,GroupStage,,Active,2
+2024-10-24,Man United,Fenerbahce,A,EL,1.0,1.0,GroupStage,,Active,2
+2024-10-30,Man United,Leicester,H,EFL,5.0,2.0,FourthRound,,Active,1
+2024-11-07,Man United,PAOK,H,EL,2.0,0.0,GroupStage,,Active,2
+2024-11-28,Man United,Bodo/Glimt,H,EL,3.0,2.0,GroupStage,,Active,2
+2024-12-12,Man United,Viktoria Plzen,A,EL,2.0,1.0,GroupStage,,Active,2
+2024-12-19,Man United,Tottenham,A,EFL,3.0,4.0,QuarterFinal,,Eliminated,1
+2025-01-12,Man United,Arsenal,A,FA,6.0,4.0,ThirdRound,,Active,1
+2025-01-23,Man United,Rangers,H,EL,2.0,1.0,GroupStage,,Active,2
+2025-01-30,Man United,FCSB,A,EL,2.0,0.0,GroupStage,,Active,2
+2025-02-07,Man United,Leicester,H,FA,2.0,1.0,FourthRound,,Active,1
+2025-03-02,Man United,Fulham,H,FA,4.0,5.0,FifthRound,,Eliminated,1
+2025-03-06,Man United,Real Sociedad,A,EL,1.0,1.0,RoundOf16,Leg1,Active,2
+2025-03-13,Man United,Real Sociedad,H,EL,4.0,1.0,RoundOf16,Leg2,Active,2
+2025-04-10,Man United,Lyon,A,EL,2.0,2.0,QuarterFinal,Leg1,Active,2
+2025-04-17,Man United,Lyon,H,EL,,,Leg2,Active,,2
+2025-05-01,Man United,Athletic Club,A,EL,3.0,0.0,SemiFinal,Leg1,Active,2
+2025-05-08,Man United,Athletic Club,H,EL,4.0,1.0,SemiFinal,Leg2,Active,2
+2025-05-21,Man United,Tottenham,A,EL,0.0,1.0,Final,,Eliminated,2
+2024-08-28,Newcastle,Nott'm Forest,A,EFL,5.0,4.0,SecondRound,,Active,1
+2024-10-01,Newcastle,AFC Wimbledon,H,EFL,1.0,0.0,ThirdRound,,Active,1
+2024-10-30,Newcastle,Chelsea,H,EFL,2.0,0.0,FourthRound,,Active,1
+2024-12-18,Newcastle,Brentford,H,EFL,3.0,1.0,QuarterFinal,,Active,1
+2025-01-07,Newcastle,Arsenal,A,EFL,2.0,0.0,SemiFinal,Leg1,Active,1
+2025-01-12,Newcastle,Bromley,H,FA,3.0,1.0,ThirdRound,,Active,1
+2025-02-05,Newcastle,Arsenal,H,EFL,2.0,0.0,SemiFinal,Leg2,Active,1
+2025-02-08,Newcastle,Birmingham,A,FA,3.0,2.0,FourthRound,,Active,1
+2025-03-02,Newcastle,Brighton,H,FA,,,,Active,,1
+2025-03-16,Newcastle,Liverpool,A,EFL,2.0,1.0,Final,,Active,1
+2024-08-28,Nott'm Forest,Newcastle,H,EFL,4.0,5.0,SecondRound,,Eliminated,1
+2025-01-11,Nott'm Forest,Luton,H,FA,2.0,0.0,ThirdRound,,Active,1
+2025-02-11,Nott'm Forest,Exeter City,A,FA,6.0,4.0,FourthRound,,Active,1
+2025-03-03,Nott'm Forest,Ipswich,H,FA,6.0,5.0,FifthRound,,Active,1
+2025-03-29,Nott'm Forest,Brighton,A,FA,4.0,3.0,QuarterFinal,,Active,1
+2025-04-27,Nott'm Forest,Man City,H,FA,0.0,2.0,SemiFinal,,Eliminated,1
+2024-08-28,Southampton,Cardiff,A,EFL,5.0,3.0,SecondRound,,Active,1
+2024-09-17,Southampton,Everton,A,EFL,7.0,6.0,ThirdRound,,Active,1
+2024-10-29,Southampton,Stoke City,H,EFL,3.0,2.0,FourthRound,,Active,1
+2024-12-18,Southampton,Liverpool,H,EFL,1.0,2.0,QuarterFinal,,Eliminated,1
+2025-01-12,Southampton,Swansea,H,FA,3.0,0.0,ThirdRound,,Active,1
+2025-02-08,Southampton,Burnley,H,FA,0.0,1.0,FourthRound,,Eliminated,1
+2024-09-18,Tottenham,Coventry,A,EFL,2.0,1.0,ThirdRound,,Active,1
+2024-09-26,Tottenham,Qarabag,H,EL,3.0,0.0,GroupStage,,Active,2
+2024-10-03,Tottenham,Ferencvaros,A,EL,2.0,1.0,GroupStage,,Active,2
+2024-10-24,Tottenham,AZ Alkmaar,H,EL,1.0,0.0,GroupStage,,Active,2
+2024-10-30,Tottenham,Man City,H,EFL,2.0,1.0,FourthRound,,Active,1
+2024-11-07,Tottenham,Galatasaray,A,EL,2.0,3.0,GroupStage,,Active,2
+2024-11-28,Tottenham,Roma,H,EL,2.0,2.0,GroupStage,,Active,2
+2024-12-12,Tottenham,Rangers,A,EL,1.0,1.0,GroupStage,,Active,2
+2024-12-19,Tottenham,Man United,H,EFL,4.0,3.0,QuarterFinal,,Active,1
+2025-01-08,Tottenham,Liverpool,H,EFL,1.0,0.0,SemiFinal,Leg1,Active,1
+2025-01-12,Tottenham,Tamworth,A,FA,,,,Active,,1
+2025-01-23,Tottenham,Hoffenheim,A,EL,3.0,2.0,GroupStage,,Active,2
+2025-01-30,Tottenham,Elfsborg,H,EL,3.0,0.0,GroupStage,,Active,2
+2025-02-06,Tottenham,Liverpool,A,EFL,0.0,4.0,SemiFinal,Leg2,Eliminated,1
+2025-02-09,Tottenham,Aston Villa,A,FA,1.0,2.0,FourthRound,,Eliminated,1
+2025-03-06,Tottenham,AZ Alkmaar,A,EL,0.0,1.0,RoundOf16,Leg1,Active,2
+2025-03-13,Tottenham,AZ Alkmaar,H,EL,3.0,1.0,RoundOf16,Leg2,Active,2
+2025-04-10,Tottenham,Frankfurt,H,EL,1.0,1.0,QuarterFinal,Leg1,Active,2
+2025-04-17,Tottenham,Frankfurt,A,EL,1.0,0.0,QuarterFinal,Leg2,Active,2
+2025-05-01,Tottenham,Bodo/Glimt,H,EL,3.0,1.0,SemiFinal,Leg1,Active,2
+2025-05-08,Tottenham,Bodo/Glimt,A,EL,2.0,0.0,SemiFinal,Leg2,Active,2
+2025-05-21,Tottenham,Man United,H,EL,1.0,0.0,Final,,Active,2
+2024-08-28,West Ham,Bournemouth,H,EFL,1.0,0.0,SecondRound,,Active,1
+2024-09-25,West Ham,Liverpool,A,EFL,1.0,5.0,ThirdRound,,Eliminated,1
+2025-01-10,West Ham,Aston Villa,A,FA,1.0,2.0,ThirdRound,,Eliminated,1
+2024-08-28,Wolves,Burnley,H,EFL,2.0,0.0,SecondRound,,Active,1
+2024-09-18,Wolves,Brighton,A,EFL,2.0,3.0,ThirdRound,,Eliminated,1
+2025-01-11,Wolves,Bristol City,A,FA,2.0,1.0,ThirdRound,,Active,1
+2025-02-09,Wolves,Blackburn,A,FA,2.0,0.0,FourthRound,,Active,1
+2025-03-01,Wolves,Bournemouth,A,FA,5.0,6.0,FifthRound,,Eliminated,1

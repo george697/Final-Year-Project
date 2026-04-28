@@ -1,0 +1,34 @@
+TOURNAMENT LOAD ANALYSIS - 2024-25 SEASON
+============================================================
+
+Overall XGBoost accuracy: 0.5105
+
+ANALYSIS 1: ACCURACY BY FIXTURE SITUATION
+----------------------------------------
+No tournament games                 n=141  acc=0.5177  (+0.7% vs overall)
+Domestic cup only                   n=126  acc=0.5476  (+3.7% vs overall)
+Any European game                   n=113  acc=0.4602  (-5.0% vs overall)
+Both teams had European game        n= 19  acc=0.4737  (-3.7% vs overall)
+
+TEAM-LEVEL BREAKDOWN
+----------------------------------------
+Crystal Palace       acc=0.3421  avg_load=0.53  euro_games=0
+Bournemouth          acc=0.3684  avg_load=0.26  euro_games=0
+Brighton             acc=0.3684  avg_load=0.39  euro_games=0
+Everton              acc=0.3684  avg_load=0.21  euro_games=0
+West Ham             acc=0.3947  avg_load=0.13  euro_games=0
+Fulham               acc=0.4211  avg_load=0.29  euro_games=0
+Wolves               acc=0.4474  avg_load=0.26  euro_games=0
+Tottenham            acc=0.4474  avg_load=1.82  euro_games=15
+Brentford            acc=0.5000  avg_load=0.26  euro_games=0
+Nott'm Forest        acc=0.5000  avg_load=0.37  euro_games=0
+Man United           acc=0.5000  avg_load=1.82  euro_games=15
+Aston Villa          acc=0.5263  avg_load=1.97  euro_games=12
+Arsenal              acc=0.5526  avg_load=2.21  euro_games=14
+Man City             acc=0.5789  avg_load=1.92  euro_games=10
+Ipswich              acc=0.5789  avg_load=0.21  euro_games=0
+Newcastle            acc=0.6053  avg_load=0.39  euro_games=0
+Liverpool            acc=0.6316  avg_load=1.68  euro_games=10
+Chelsea              acc=0.6316  avg_load=1.66  euro_games=15
+Leicester            acc=0.6842  avg_load=0.24  euro_games=0
+Southampton          acc=0.7632  avg_load=0.34  euro_games=0
