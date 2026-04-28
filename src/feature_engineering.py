@@ -79,8 +79,8 @@ form_cols = [
 
 df[form_cols] = df[form_cols].fillna(0)
 
-df["HomeElo"] = df["HomeElo"].fillna(df["HomeElo"].mean())
-df["AwayElo"] = df["AwayElo"].fillna(df["AwayElo"].mean())
+df["HomeElo"] = df.groupby("HomeTeam")["HomeElo"].bfill()
+df["AwayElo"] = df.groupby("AwayTeam")["AwayElo"].bfill()
 df["EloDiff"] = df["HomeElo"] - df["AwayElo"]
 
 key_cols = ["HomeElo", "AwayElo", "EloDiff"] + form_cols
