@@ -1,4 +1,24 @@
-import pandas as pd
+"""
+visualisations.py
+=================
+Generates all six figures used in the report.
+
+Figures 1-3 cover model evaluation results (Chapter 6):
+    Figure 1 - Model performance comparison bar chart
+    Figure 2 - Confusion matrices for all three models
+    Figure 3 - XGBoost feature importances
+
+Figures 4-6 cover tournament load analysis results (Chapter 7):
+    Figure 4 - Accuracy by fixture situation
+    Figure 5 - Accuracy by days rest since last tournament fixture
+    Figure 6 - Accuracy by tournament type
+
+HOW TO USE:
+1. Run from project root: python src/visualisations.py
+2. All figures saved to reports/figures/ as PNG files (directory is created automatically if it does not exist)
+
+All result values are hardcoded from model_training.py and tournament_analysis.py output.
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -10,6 +30,10 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 COLOURS = ["#2196F3", "#4CAF50", "#FF9800", "#9C27B0"]
 
+#--------------------------------------------------------------------------------------------
+# FIGURE 1: Model comparison bar chart
+# Results from model_training.py,  bookmaker included as industry benchmark
+#--------------------------------------------------------------------------------------------
 
 models   = ["Bookmaker", "Logistic\nRegression", "Random\nForest", "XGBoost"]
 accuracy = [0.5395, 0.5184, 0.5158, 0.5105]
@@ -34,6 +58,7 @@ ax.set_ylim(0, 0.65)
 ax.axhline(y=0.5395, color="red", linestyle="--", linewidth=1.2, alpha=0.6)
 ax.grid(axis="y", alpha=0.3)
 
+# Annotate each bar with its exact value
 for bar in [*bars1, *bars2, *bars3]:
     ax.annotate(f"{bar.get_height():.3f}",
                 xy=(bar.get_x() + bar.get_width() / 2, bar.get_height()),
@@ -45,7 +70,11 @@ plt.savefig(OUTPUT_DIR / "figure1_model_comparison.png", dpi=150, bbox_inches="t
 plt.close()
 print("Figure 1 saved")
 
-
+#--------------------------------------------------------------------------------------------
+# FIGURE 2: Confusion matrices
+# One heatmap per model, shows draw prediction weakness
+# Rows = actual class, Columns = predicted class
+#--------------------------------------------------------------------------------------------
 
 confusion_matrices = {
     "Logistic Regression": np.array([[123, 0, 32], [56, 1, 36], [59, 0, 73]]),
@@ -72,7 +101,11 @@ plt.savefig(OUTPUT_DIR / "figure2_confusion_matrices.png", dpi=150, bbox_inches=
 plt.close()
 print("Figure 2 saved")
 
-
+#--------------------------------------------------------------------------------------------
+# FIGURE 3: XGBoost feature importances
+# Blue = ELO-based features, Green = form-based features
+# Reversed so highest importance appears at the top
+#--------------------------------------------------------------------------------------------
 
 features = [
     "EloDiff", "AwayElo", "HomeElo", "FormPointsDiff",
@@ -106,7 +139,10 @@ plt.savefig(OUTPUT_DIR / "figure3_feature_importances.png", dpi=150, bbox_inches
 plt.close()
 print("Figure 3 saved")
 
-
+#--------------------------------------------------------------------------------------------
+# FIGURE 4: Accuracy by fixture situation
+# Green = above baseline, Red = below baseline
+#--------------------------------------------------------------------------------------------
 
 groups     = ["No\ntournament\ngames", "Domestic\ncup only",
               "Any\nEuropean\ngame", "Both teams\nhad European\ngame"]
@@ -125,6 +161,7 @@ ax.set_title("XGBoost Accuracy by Fixture Situation — 2024-25",
 ax.set_ylim(0.40, 0.60)
 ax.grid(axis="y", alpha=0.3)
 
+# Show both accuracy percentage and sample size on each bar
 for bar, val, n in zip(bars, accuracies, ns):
     ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.003,
             f"{val:.1%}\n(n={n})", ha="center", va="bottom",
@@ -142,6 +179,10 @@ plt.savefig(OUTPUT_DIR / "figure4_fixture_situation.png", dpi=150, bbox_inches="
 plt.close()
 print("Figure 4 saved")
 
+#--------------------------------------------------------------------------------------------
+# FIGURE 5: Days rest effect
+# Only includes matches where at least one team had a tournament fixture
+#--------------------------------------------------------------------------------------------
 
 rest_buckets = ["1-3 days", "4-5 days", "6-7 days", "8-14 days"]
 rest_acc     = [0.5059, 0.4400, 0.5455, 0.5352]
@@ -175,6 +216,10 @@ plt.savefig(OUTPUT_DIR / "figure5_days_rest.png", dpi=150, bbox_inches="tight")
 plt.close()
 print("Figure 5 saved")
 
+#--------------------------------------------------------------------------------------------
+# FIGURE 6: Accuracy by tournament type
+# Sample sizes shown on bars since they vary significantly across competitions
+#--------------------------------------------------------------------------------------------
 
 tourn_names = ["Champions\nLeague", "Europa\nLeague", "Conference\nLeague",
                "League\nCup", "FA\nCup"]
