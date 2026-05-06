@@ -93,7 +93,7 @@ if missing:
     raise ValueError(f"Missing feature columns: {missing}")
 
 #--------------------------------------------------------------------------------------------
-#2. Train-based train/test split
+#2. Time-based train/test split
 #--------------------------------------------------------------------------------------------
 # A random split was rejected because it would allow training on future seasons and testing on past ones,
 # which risks leaking team strength information across season boundaries.
@@ -259,7 +259,6 @@ xgb = XGBClassifier(
     subsample=0.8,              #uses 80% of rows per tree
     colsample_bytree=0.8,       #uses 80% of columns (features) per tree, both reduce overfitting
     eval_metric="mlogloss",
-    use_label_encoder=False,
     random_state=42,
     verbosity=0
 )

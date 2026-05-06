@@ -4,7 +4,7 @@ tournament_analysis.py
 Post-hoc analysis of how tournament fixture load affects XGBoost
 prediction accuracy on the 2024-25 Premier League Season.
 
-This script is not part of the main prediction pipeline. It is a seperate
+This script is not part of the main prediction pipeline. It is a separate
 analysis designed to examine whether fixture congestion from European
 and domestic cup competitions represents a source of prediction error that
 historical match features cannot capture.
@@ -112,7 +112,7 @@ def get_load(team, match_date, tournament_df, window_days=14):
     )
     recent = tournament_df[mask]
 
-    #No tournament games in window, return full rest defaukt
+    #No tournament games in window, return full rest default
     if len(recent) == 0:
         return {
             "TournamentGames": 0,

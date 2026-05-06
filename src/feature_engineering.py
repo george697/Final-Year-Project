@@ -18,7 +18,7 @@ FormPointsDiff      -HomeFormPoints minus AwayFormPoints
 HOW TO USE:
 1. Run build_master_dataset.py first to generate master_dataset.csv
 2. Run from project root: python src/feature_engineering.py
-3. Output saved to data/processed/master_dataset.csv
+3. Output saved to data/processed/featured_dataset.csv
 """
 
 import pandas as pd

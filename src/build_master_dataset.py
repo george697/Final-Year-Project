@@ -12,10 +12,8 @@ prem2021.csv, prem2122.csv, prem2223.csv, prem2324.csv,prem2425.csv
 4. Output saved to processed/master_dataset.csv
 
 INFO:
-First time running this will take a while since all the ELO needs to be fetched but
-once its fetched once it will be cached on all future runs so it will run fast.
-If you want to avoid this, uncomment line number : ...
-it will use the premade generated csv.
+On first run, ELO ratings are fetched from ClubElo and cached locally.
+Subsequent runs the cache and complete quickly.
 """
 
 import pandas as pd
@@ -45,31 +43,7 @@ SEASON_FILES = [
 
 TEAM_NAME_MAP = {
     "Nott'm Forest":    "Forest",
-    "Sheffield United": "Sheffield United",
     "Sheffield Utd":    "Sheffield United",
-    "Man United":       "Man United",
-    "Man City":         "Man City",
-    "Tottenham":        "Tottenham",
-    "Newcastle":        "Newcastle",
-    "Leeds":            "Leeds",
-    "Leicester":        "Leicester",
-    "Wolves":           "Wolves",
-    "Brighton":         "Brighton",
-    "Brentford":        "Brentford",
-    "Bournemouth":      "Bournemouth",
-    "Fulham":           "Fulham",
-    "Crystal Palace":   "Crystal Palace",
-    "Aston Villa":      "Aston Villa",
-    "Everton":          "Everton",
-    "West Ham":         "West Ham",
-    "Southampton":      "Southampton",
-    "Chelsea":          "Chelsea",
-    "Arsenal":          "Arsenal",
-    "Liverpool":        "Liverpool",
-    "Luton":            "Luton",
-    "Burnley":          "Burnley",
-    "Ipswich":          "Ipswich",
-    "West Brom":        "West Brom",
 }
 
 #--------------------------------------------------------------------------------------------
@@ -242,7 +216,6 @@ print(f"    Away wins (A): {counts.get('A', 0)}  ({counts.get('A', 0)/total*100:
 
 output_path = PROCESSED_DATA_DIR / "master_dataset.csv"
 matches.to_csv(output_path, index=False)
-
 
 print(f"\n  Path:  {output_path.resolve()}")
 print(f"\n  Columns:")
