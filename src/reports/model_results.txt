@@ -10,6 +10,7 @@ XGBoost                      0.5105     0.4255     0.2035
 
 
 Feature Importances (XGBoost)
+----------------------------------------
   EloDiff                   0.1435
   AwayElo                   0.0881
   HomeElo                   0.0873
@@ -22,3 +23,64 @@ Feature Importances (XGBoost)
   HomeWinsLast5             0.0721
   HomeConcededLast5         0.0714
   AwayWinsLast5             0.0673
+
+
+PER MODEL DETAIL
+============================================================
+
+Logistic Regression
+----------------------------------------
+              precision    recall  f1-score   support
+
+    Home Win       0.52      0.79      0.63       155
+        Draw       1.00      0.01      0.02        93
+    Away Win       0.52      0.55      0.53       132
+
+    accuracy                           0.52       380
+   macro avg       0.68      0.45      0.39       380
+weighted avg       0.64      0.52      0.45       380
+
+Confusion Matrix (rows=actual, cols=predicted):
+             HomeWin  Draw  AwayWin
+HomeWin       123      0       32
+Draw           56      1       36
+AwayWin        59      0       73
+
+
+Random Forest
+----------------------------------------
+              precision    recall  f1-score   support
+
+    Home Win       0.51      0.79      0.62       155
+        Draw       0.33      0.02      0.04        93
+    Away Win       0.53      0.54      0.54       132
+
+    accuracy                           0.52       380
+   macro avg       0.46      0.45      0.40       380
+weighted avg       0.48      0.52      0.45       380
+
+Confusion Matrix (rows=actual, cols=predicted):
+             HomeWin  Draw  AwayWin
+HomeWin       123      3       29
+Draw           58      2       33
+AwayWin        60      1       71
+
+
+XGBoost
+----------------------------------------
+              precision    recall  f1-score   support
+
+    Home Win       0.52      0.77      0.62       155
+        Draw       0.30      0.09      0.13        93
+    Away Win       0.54      0.51      0.52       132
+
+    accuracy                           0.51       380
+   macro avg       0.45      0.45      0.43       380
+weighted avg       0.47      0.51      0.47       380
+
+Confusion Matrix (rows=actual, cols=predicted):
+             HomeWin  Draw  AwayWin
+HomeWin       119      9       27
+Draw           55      8       30
+AwayWin        55     10       67
+

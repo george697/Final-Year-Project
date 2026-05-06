@@ -10,7 +10,28 @@ Domestic cup only                   n=126  acc=0.5476  (+3.7% vs overall)
 Any European game                   n=113  acc=0.4602  (-5.0% vs overall)
 Both teams had European game        n= 19  acc=0.4737  (-3.7% vs overall)
 
-TEAM-LEVEL BREAKDOWN
+ANALYSIS 2: HOME VS AWAY LOAD
+----------------------------------------
+Home team had tournament game       n=169  acc=0.5621  (+5.2% vs overall)
+Away team had tournament game       n=164  acc=0.5000  (-1.1% vs overall)
+Neither team had tournament game    n=141  acc=0.5177  (+0.7% vs overall)
+
+ANALYSIS 3: DAYS REST
+----------------------------------------
+1-3 days                       n= 85  acc=0.5059  (-0.5% vs overall)
+4-5 days                       n= 50  acc=0.4400  (-7.1% vs overall)
+6-7 days                       n= 33  acc=0.5455  (+3.5% vs overall)
+8-14 days                      n= 71  acc=0.5352  (+2.5% vs overall)
+
+ANALYSIS 4: ACCURACY BY TOURNAMENT TYPE
+----------------------------------------
+Champions League               n= 61  acc=0.5082  (-0.2% vs overall)
+Europa League                  n= 43  acc=0.3256  (-18.5% vs overall)
+Conference League              n= 21  acc=0.5714  (+6.1% vs overall)
+League Cup                     n= 84  acc=0.5119  (+0.1% vs overall)
+FA Cup                         n= 90  acc=0.5111  (+0.1% vs overall)
+
+ANALYSIS 5: TEAM-LEVEL BREAKDOWN
 ----------------------------------------
 Crystal Palace       acc=0.3421  avg_load=0.53  euro_games=0
 Bournemouth          acc=0.3684  avg_load=0.26  euro_games=0

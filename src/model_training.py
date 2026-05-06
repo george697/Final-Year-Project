@@ -308,9 +308,30 @@ with open(RESULTS_PATH, "w") as f:
         f.write(f"{'Bookmaker (Bet365)':<25} {bookie_acc:>9.4f}  {bookie_f1:>9.4f}  {bookie_brier:>9.4f}\n")
     for r in results:
         f.write(f"{r['model']:<25} {r['accuracy']:>9.4f}  {r['macro_f1']:>9.4f}  {r['brier']:>9.4f}\n")
+
     f.write("\n\nFeature Importances (XGBoost)\n")
+    f.write("-" * 40 + "\n")
     for feat, imp in importances.items():
         f.write(f"  {feat:<25} {imp:.4f}\n")
+
+    f.write("\n\nPER MODEL DETAIL\n")
+    f.write("=" * 60 + "\n")
+    for r in results:
+        f.write(f"\n{r['model']}\n")
+        f.write("-" * 40 + "\n")
+        y_pred = r['trained'].predict(X_test_scaled if r['model'] == "Logistic Regression" else X_test)
+        f.write(str(classification_report(
+            y_test, y_pred,
+            target_names=["Home Win", "Draw", "Away Win"],
+            zero_division=0
+        )))
+        cm = confusion_matrix(y_test, y_pred)
+        f.write("\nConfusion Matrix (rows=actual, cols=predicted):\n")
+        f.write(f"{'':12} HomeWin  Draw  AwayWin\n")
+        row_labels = ["HomeWin", "Draw   ", "AwayWin"]
+        for label, row in zip(row_labels, cm):
+            f.write(f"{label}    {row[0]:>6}  {row[1]:>5}  {row[2]:>7}\n")
+        f.write("\n")
 
 print(f"  Results saved to: {RESULTS_PATH.resolve()}")
 

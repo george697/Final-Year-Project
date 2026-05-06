@@ -374,7 +374,65 @@ with open(output_path, "w") as f:
         f.write(f"{name:<35} n={res['n']:>3}  acc={res['accuracy']:.4f}  "
                 f"({sign}{res['diff']*100:.1f}% vs overall)\n")
 
-    f.write("\nTEAM-LEVEL BREAKDOWN\n")
+    f.write("\nANALYSIS 2: HOME VS AWAY LOAD\n")
+    f.write("-" * 40 + "\n")
+    for name, group in [
+        ("Home team had tournament game",    home_loaded),
+        ("Away team had tournament game",    away_loaded),
+        ("Neither team had tournament game", neither),
+    ]:
+        if len(group) == 0:
+            continue
+        acc  = group["Correct"].mean()
+        diff = acc - overall_acc
+        sign = "+" if diff >= 0 else ""
+        f.write(f"{name:<35} n={len(group):>3}  acc={acc:.4f}  "
+                f"({sign}{diff*100:.1f}% vs overall)\n")
+
+    f.write("\nANALYSIS 3: DAYS REST\n")
+    f.write("-" * 40 + "\n")
+    for bucket in labels:
+        group = played[played["RestBucket"] == bucket]
+        if len(group) == 0:
+            continue
+        acc  = group["Correct"].mean()
+        diff = acc - overall_acc
+        sign = "+" if diff >= 0 else ""
+        f.write(f"{bucket:<30} n={len(group):>3}  acc={acc:.4f}  "
+                f"({sign}{diff*100:.1f}% vs overall)\n")
+
+    f.write("\nANALYSIS 4: ACCURACY BY TOURNAMENT TYPE\n")
+    f.write("-" * 40 + "\n")
+    for tourn in ["CL", "EL", "ECL", "EFL", "FA"]:
+        tourn_name = {
+            "CL":  "Champions League",
+            "EL":  "Europa League",
+            "ECL": "Conference League",
+            "EFL": "League Cup",
+            "FA":  "FA Cup"
+        }[tourn]
+        match_flags = []
+        for _, row in test_df.iterrows():
+            cutoff = row["Date"] - pd.Timedelta(days=14)
+            home_flag = len(tour[(tour["Team"] == row["HomeTeam"]) &
+                                 (tour["Tournament"] == tourn) &
+                                 (tour["Date"] >= cutoff) &
+                                 (tour["Date"] < row["Date"])]) > 0
+            away_flag = len(tour[(tour["Team"] == row["AwayTeam"]) &
+                                 (tour["Tournament"] == tourn) &
+                                 (tour["Date"] >= cutoff) &
+                                 (tour["Date"] < row["Date"])]) > 0
+            match_flags.append(home_flag or away_flag)
+        group = test_df[match_flags]
+        if len(group) == 0:
+            continue
+        acc  = group["Correct"].mean()
+        diff = acc - overall_acc
+        sign = "+" if diff >= 0 else ""
+        f.write(f"{tourn_name:<30} n={len(group):>3}  acc={acc:.4f}  "
+                f"({sign}{diff*100:.1f}% vs overall)\n")
+
+    f.write("\nANALYSIS 5: TEAM-LEVEL BREAKDOWN\n")
     f.write("-" * 40 + "\n")
     for _, row in team_df.iterrows():
         f.write(f"{row['Team']:<20} acc={row['Accuracy']:.4f}  "
